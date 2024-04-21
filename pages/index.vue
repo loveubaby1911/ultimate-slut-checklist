@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import {watch} from "vue";
 
-import { categories, modes, tags, difficulties, checklistData } from "../helpers/checklistData.ts";
+import type { ICategories } from "~/typings/Categories"
+import type { ITags } from "~/typings/Tags"
+import type { ITask } from "~/typings/Tasks"
+import { categories, modes, tags, difficulties, tasks } from "../helpers/checklistData";
 
 useHead({
   title: 'Ultimate slut checklist',
@@ -17,30 +20,30 @@ const backgroundStyles = computed(() => {
   return { backgroundImage: `url('${imgUrl}')` }
 });
 
-const getTasks = (category) => {
+const getTasks = (category?: string) => {
   if (category == null) {
-    return myChecklist.value.filter(
+    return myTasks.value?.filter(
       x => (
         x.mode <= options.mode 
         && x.difficulty <= options.difficulty 
-        && options.tagsToExclude.every(item => !x.tags?.includes(item))
+        && options.tagsToExclude.every((item:string) => !x.tags?.includes(item))
       )
     );
   }
 
-  return myChecklist.value.filter(
+  return myTasks.value?.filter(
     x => (
       x.category == category 
       && x.mode <= options.mode 
       && x.difficulty <= options.difficulty 
-      && options.tagsToExclude.every(item => !x.tags?.includes(item))
+      && options.tagsToExclude.every((item:string) => !x.tags?.includes(item))
     )
   );
 };
 
-const getCheckedTasksAmount = (category) => getTasks(category).filter(x => checkedTasks.value.includes(x.name)).length;
+const getCheckedTasksAmount = (category?: string) => getTasks(category).filter(x => checkedTasks.value.includes(x.name)).length;
 
-const getPoints = (category) => {
+const getPoints = (category?: string) => {
   let count = 0;
   getTasks(category).filter(x => checkedTasks.value.includes(x.name)).forEach(x => {
     count += x.points
@@ -48,7 +51,7 @@ const getPoints = (category) => {
   return count;
 };
 
-const getMaxAvailablePoints = (category) => {
+const getMaxAvailablePoints = (category?: string) => {
   let count = 0;
   getTasks(category).forEach(x => {
     count += x.points
@@ -57,11 +60,13 @@ const getMaxAvailablePoints = (category) => {
 };
 
 const getLocalStorageOptions = () => {
-  return JSON.parse(localStorage.getItem("options"));
+  const localOptions = localStorage.getItem("options")
+  return localOptions ? JSON.parse(localOptions) : null;
 };
 
 const getLocalStorageCheckedTasks = () => {
-  return JSON.parse(localStorage.getItem("checkedTasks"));
+  const localCheckedTasks = localStorage.getItem("checkedTasks")
+  return localCheckedTasks ? JSON.parse(localCheckedTasks) : null;
 };
 
 // Options
@@ -74,12 +79,12 @@ const options = reactive(getLocalStorageOptions() || defaultOptions);
 const tagsToExclude = ref(getLocalStorageOptions()?.tagsToExclude || []);
 
 // categories
-const myCategories = ref(null);
-const myChecklist = ref(null);
-const myTags = ref(null)
+const myCategories = ref<ICategories | null>(null);
+const myTasks = ref<ITask[]>([]);
+const myTags = ref<ITags | null>(null)
 
 myCategories.value = categories;
-myChecklist.value = checklistData;
+myTasks.value = tasks;
 myTags.value = tags;
 
 // Checked elements
@@ -129,7 +134,7 @@ watch(checkedTasks, (newCheckedTasks) => {
             </div>
           </fieldset>
 
-          <h2>Tasks completed: {{ getCheckedTasksAmount() }} / {{ getTasks().length }}</h2>
+          <h2>Tasks completed: {{ getCheckedTasksAmount() }} / {{ getTasks()?.length }}</h2>
           <h2>Points: {{ getPoints() }} / {{ getMaxAvailablePoints() }}</h2>
           <div class="masonryContainer">
             <template v-for="category in myCategories">

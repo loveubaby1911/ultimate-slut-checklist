@@ -1,4 +1,10 @@
-export const categories = {
+import type { ICategories } from "~/typings/Categories"
+import type { IDifficulties } from "~/typings/Difficulties"
+import type { IModes } from "~/typings/Modes"
+import type { ITags } from "~/typings/Tags"
+import type { ITask } from "~/typings/Tasks"
+
+export const categories:ICategories = {
   misc: "Sex and miscellaneous",
   oral: "Oral",
   public: "Public (Outside your house, somewhere people could be)",
@@ -7,27 +13,27 @@ export const categories = {
   swinging: "Swinging"
 }
 
-export const modes = {
+export const modes:IModes = {
   monogamous: {name: "Monogamous", level: 1},
   swinger: {name: "Swinger", level: 2},
   single: {name: "Single", level: 3},
   hotwife: {name: "Hotwife", level: 4},
 }
 
-export const tags = {
+export const tags:ITags = {
   public: "Public",
   bi: "Bisexual",
   exposition: "Exposition"
 }
 
-export const difficulties = {
+export const difficulties:IDifficulties = {
   easy: {name: "Easy", level: 1},
   medium: {name: "Medium", level: 2},
   hard: {name: "Hard", level: 3},
   extreme: {name: "Extreme", level: 4}
 }
 
-export const checklistData = [
+export const tasks:ITask[] = [
   // Misc
   {
     name: "Gave a striptease",
