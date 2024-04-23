@@ -15,15 +15,16 @@ export const categories:ICategories = {
 
 export const modes:IModes = {
   monogamous: {name: "Monogamous", level: 1},
-  swinger: {name: "Swinger", level: 2},
-  single: {name: "Single", level: 3},
-  hotwife: {name: "Hotwife", level: 4},
+  swinger: {name: "Swinger/sharing", level: 2},
+  single: {name: "Single", level: 3}
 }
 
 export const tags:ITags = {
   public: "Public",
   bi: "Bisexual",
-  exposition: "Exposition"
+  exposition: "Exposition",
+  hotwife: "Hotwife",
+  cuckquean: "Cuckquean"
 }
 
 export const difficulties:IDifficulties = {
@@ -140,7 +141,7 @@ export const tasks:ITask[] = [
     name: "Went to gloryhole with husband",
     points: 2,
     category: categories.hotwife,
-    mode: modes.hotwife.level,
+    mode: modes.swinger.level,
     difficulty: difficulties.easy.level,
   },
 

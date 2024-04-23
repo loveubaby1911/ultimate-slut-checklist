@@ -7,5 +7,4 @@ export interface IModes {
   monogamous:IMode
   swinger:IMode
   single:IMode
-  hotwife:IMode
 }
