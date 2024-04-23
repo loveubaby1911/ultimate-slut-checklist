@@ -190,7 +190,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(../../public/chevron-down-svgrepo-com.svg);
+  background-image: url(/chevron-down-svgrepo-com.svg);
   background-size: 1em;
   background-position: center right 1em;
   background-repeat: no-repeat;
@@ -326,68 +326,68 @@ select {
   }
 }
 
-@-moz-keyframes dothabottomcheck-19 {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) / 2);
-  }
-}
+// @-moz-keyframes dothabottomcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) / 2);
+//   }
+// }
 
-@-webkit-keyframes dothabottomcheck-19 {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) / 2);
-  }
-}
+// @-webkit-keyframes dothabottomcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) / 2);
+//   }
+// }
 
-@keyframes dothabottomcheck-19 {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) / 2);
-  }
-}
+// @keyframes dothabottomcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) / 2);
+//   }
+// }
 
-@keyframes dothatopcheck-19 {
-  0% {
-    height: 0;
-  }
-  50% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) * 1.2);
-  }
-}
+// @keyframes dothatopcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   50% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) * 1.2);
+//   }
+// }
 
-@-webkit-keyframes dothatopcheck-19 {
-  0% {
-    height: 0;
-  }
-  50% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) * 1.2);
-  }
-}
+// @-webkit-keyframes dothatopcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   50% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) * 1.2);
+//   }
+// }
 
-@-moz-keyframes dothatopcheck-19 {
-  0% {
-    height: 0;
-  }
-  50% {
-    height: 0;
-  }
-  100% {
-    height: calc(var(--checkbox-height) * 1.2);
-  }
-}
+// @-moz-keyframes dothatopcheck-19 {
+//   0% {
+//     height: 0;
+//   }
+//   50% {
+//     height: 0;
+//   }
+//   100% {
+//     height: calc(var(--checkbox-height) * 1.2);
+//   }
+// }
 
 .checkbox-wrapper-19 input[type=checkbox] {
   display: none;

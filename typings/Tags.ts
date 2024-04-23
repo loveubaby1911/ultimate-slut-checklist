@@ -4,4 +4,5 @@ export interface ITags {
   exposition: string
   hotwife: string
   cuckquean: string
+  anal: string
 }
