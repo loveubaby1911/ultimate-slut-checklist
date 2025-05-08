@@ -62,10 +62,16 @@ body {
 
   &.wrap {
     flex-wrap: wrap;
+    row-gap: 0.5em;
   }
 
   &.nogap {
     gap: 0.3em;
+  }
+
+  p {
+    margin: 0;
+    width: 100%;
   }
 }
 
