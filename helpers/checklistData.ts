@@ -1615,28 +1615,28 @@ export const tasks:ITask[] = [
 
   // Clothing
   {
-    name: "Bra & string",
+    name: "Wore bra & string",
     points: 1,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Corset",
+    name: "Wore a corset",
     points: 1,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Lingerie set/bodystocking",
+    name: "Wore lingerie set/bodystocking",
     points: 1,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Rave apparel/Mini-dress in public",
+    name: "Wore rave apparel/mini-dress in public",
     points: 1,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
@@ -1644,46 +1644,101 @@ export const tasks:ITask[] = [
     tags: [tags.public]
   },
   {
-    name: "Teddies",
+    name: "Wore teddies",
     points: 1,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Latex",
+    name: "Wore stockings",
+    points: 1,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+  },
+  {
+    name: "Wore latex",
     points: 2,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Open cup/crotchless underwear",
+    name: "Wore open cup/crotchless underwear",
     points: 2,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Candy underwear",
+    name: "Wore candy underwear",
     points: 2,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Cosplay",
+    name: "Wore a cosplay",
     points: 2,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
   },
   {
-    name: "Micro-bikini",
+    name: "Wore no underwear while in public",
+    points: 2,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.public]
+  },
+  {
+    name: "Wore no underwear while in public",
+    points: 2,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.public]
+  },
+  {
+    name: "Wore micro-bikini",
     points: 3,
     category: categories.clothing.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.easy.level,
+  },
+  {
+    name: "Wore shorts and top that are too small without underwear in public",
+    points: 4,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.public]
+  },
+  {
+    name: "Wore micro-skirt without underwear in public",
+    points: 4,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.public]
+  },
+  {
+    name: "Wore underboob croptop in public",
+    points: 4,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.public]
+  },
+  {
+    name: "Wore pants with hole in genital area in public",
+    points: 5,
+    category: categories.clothing.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.public]
   },
 
   // BDSM
@@ -2259,449 +2314,6 @@ export const tasks:ITask[] = [
     category: categories.collection.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.hard.level,
-  },
-
-  // Exposition
-  {
-    name: "Sent a photo of you in lingerie to a stranger",
-    points: 1,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your boobs to a stranger",
-    points: 1,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your pussy to a stranger",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your ass to a stranger",
-    points: 1,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a one finger challenge photo to a stranger",
-    points: 1,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a full nude photo to a stranger",
-    points: 3,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of creampie to a stranger",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of facial to a stranger",
-    points: 5,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of you being penetrated to a stranger",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.easy.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you masturbating to a stranger",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you having sex to a stranger",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you receiving creampie to a stranger",
-    points: 7,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you receiving facial to a stranger",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of you in lingerie online",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your boobs online",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your pussy online",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your ass online",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a one finger challenge photo online",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a full nude photo online",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of you being penetrated online",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of creampie online",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.medium.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of facial online",
-    points: 10,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you masturbating online",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uplaoded a video of you having sex online",
-    points: 12,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you receiving creampie online",
-    points: 14,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you receiving facial online",
-    points: 16,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-
-  {
-    name: "Sent a photo of you in lingerie to a stranger (Face visible)",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your boobs to a stranger (Face visible)",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your pussy to a stranger (Face visible)",
-    points: 4,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of your ass to a stranger (Face visible)",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a one finger challenge photo to a stranger (Face visible)",
-    points: 2,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a full nude photo to a stranger (Face visible)",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of creampie to a stranger (Face visible)",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of facial to a stranger (Face visible)",
-    points: 10,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a photo of you being penetrated to a stranger (Face visible)",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you masturbating to a stranger (Face visible)",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you having sex to a stranger (Face visible)",
-    points: 12,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you receiving creampie to a stranger (Face visible)",
-    points: 14,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a video of you receiving facial to a stranger (Face visible)",
-    points: 16,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of you in lingerie online (Face visible)",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your boobs online (Face visible)",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your pussy online (Face visible)",
-    points: 10,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of your ass online (Face visible)",
-    points: 6,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a one finger challenge photo online (Face visible)",
-    points: 10,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a full nude photo online (Face visible)",
-    points: 10,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of you being penetrated online (Face visible)",
-    points: 14,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of creampie online (Face visible)",
-    points: 14,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a photo of facial online (Face visible)",
-    points: 20,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you masturbating online (Face visible)",
-    points: 18,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uplaoded a video of you having sex online (Face visible)",
-    points: 24,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you receiving creampie online (Face visible)",
-    points: 30,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a video of you receiving facial online (Face visible)",
-    points: 32,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.extreme.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a sexy photo of yourself in lingerie on your most used social media",
-    points: 16,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Sent a boudoir album to a stranger",
-    points: 8,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
-  },
-  {
-    name: "Uploaded a boudoir album online",
-    points: 16,
-    category: categories.exposition.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-    tags: [tags.exposition]
   },
 
   // Cybersex
@@ -3869,5 +3481,448 @@ export const tasks:ITask[] = [
     category: categories.femdom.name,
     mode: modes.monogamous.level,
     difficulty: difficulties.extreme.level,
+  },
+
+  // Exposition
+  {
+    name: "Sent a photo of you in lingerie to a stranger",
+    points: 1,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your boobs to a stranger",
+    points: 1,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your pussy to a stranger",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your ass to a stranger",
+    points: 1,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a one finger challenge photo to a stranger",
+    points: 1,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a full nude photo to a stranger",
+    points: 3,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of creampie to a stranger",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of facial to a stranger",
+    points: 5,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of you being penetrated to a stranger",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.easy.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you masturbating to a stranger",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you having sex to a stranger",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you receiving creampie to a stranger",
+    points: 7,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you receiving facial to a stranger",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of you in lingerie online",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your boobs online",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your pussy online",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your ass online",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a one finger challenge photo online",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a full nude photo online",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of you being penetrated online",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of creampie online",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.medium.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of facial online",
+    points: 10,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you masturbating online",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uplaoded a video of you having sex online",
+    points: 12,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you receiving creampie online",
+    points: 14,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you receiving facial online",
+    points: 16,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+
+  {
+    name: "Sent a photo of you in lingerie to a stranger (Face visible)",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your boobs to a stranger (Face visible)",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your pussy to a stranger (Face visible)",
+    points: 4,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of your ass to a stranger (Face visible)",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a one finger challenge photo to a stranger (Face visible)",
+    points: 2,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a full nude photo to a stranger (Face visible)",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of creampie to a stranger (Face visible)",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of facial to a stranger (Face visible)",
+    points: 10,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a photo of you being penetrated to a stranger (Face visible)",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you masturbating to a stranger (Face visible)",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you having sex to a stranger (Face visible)",
+    points: 12,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you receiving creampie to a stranger (Face visible)",
+    points: 14,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a video of you receiving facial to a stranger (Face visible)",
+    points: 16,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of you in lingerie online (Face visible)",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your boobs online (Face visible)",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your pussy online (Face visible)",
+    points: 10,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of your ass online (Face visible)",
+    points: 6,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a one finger challenge photo online (Face visible)",
+    points: 10,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a full nude photo online (Face visible)",
+    points: 10,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of you being penetrated online (Face visible)",
+    points: 14,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of creampie online (Face visible)",
+    points: 14,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a photo of facial online (Face visible)",
+    points: 20,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you masturbating online (Face visible)",
+    points: 18,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uplaoded a video of you having sex online (Face visible)",
+    points: 24,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you receiving creampie online (Face visible)",
+    points: 30,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a video of you receiving facial online (Face visible)",
+    points: 32,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.extreme.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a sexy photo of yourself in lingerie on your most used social media",
+    points: 16,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Sent a boudoir album to a stranger",
+    points: 8,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
+  },
+  {
+    name: "Uploaded a boudoir album online",
+    points: 16,
+    category: categories.exposition.name,
+    mode: modes.monogamous.level,
+    difficulty: difficulties.hard.level,
+    tags: [tags.exposition]
   },
 ]
