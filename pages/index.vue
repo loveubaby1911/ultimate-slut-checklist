@@ -71,7 +71,7 @@ const getLocalStorageCheckedTasks = () => {
 
 // Options
 const defaultOptions = {
-  mode: modes.single.level,
+  mode: modes.swinger.level,
   difficulty: difficulties.extreme.level,
   tagsToExclude: []
 };
@@ -98,7 +98,7 @@ const toggleCheckAll = () => {
 
   if (allChecked) {
     // Uncheck all
-    checkedTasks.value = checkedTasks.value.filter(name => !visibleTasks.includes(name));
+    checkedTasks.value = checkedTasks.value.filter((name: string) => !visibleTasks.includes(name));
   } else {
     // Check all visible tasks
     const newChecked = new Set(checkedTasks.value);
@@ -188,8 +188,8 @@ const allTasksChecked = computed(() => {
               <label>Mode</label>
               <select name="" id="" v-model="options.mode">
                 <option :value="modes.monogamous.level">{{ modes.monogamous.name }}</option>
-                <option :value="modes.swinger.level">{{ modes.swinger.name }}</option>
                 <option :value="modes.single.level">{{ modes.single.name }}</option>
+                <option :value="modes.swinger.level">{{ modes.swinger.name }}</option>
               </select>
             </div>
 

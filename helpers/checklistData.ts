@@ -36,8 +36,8 @@ export const categories:ICategories = {
 
 export const modes:IModes = {
   monogamous: {name: "Monogamous relationship", level: 1},
-  swinger: {name: "Swinger/sharing", level: 2},
-  single: {name: "Single", level: 3}
+  single: {name: "Single", level: 2},
+  swinger: {name: "Swinger/sharing", level: 3},
 }
 
 export const tags:ITags = {
