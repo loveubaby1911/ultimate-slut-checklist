@@ -1359,13 +1359,6 @@ export const tasks:ITask[] = [
     difficulty: difficulties.hard.level,
   },
   {
-    name: "Graveyard",
-    points: 4,
-    category: categories.places.name,
-    mode: modes.monogamous.level,
-    difficulty: difficulties.hard.level,
-  },
-  {
     name: "Concert",
     points: 6,
     category: categories.places.name,
